@@ -7,8 +7,12 @@
 <table>
   <tr>
     <th><b>LABEL</b></th>
+    <th>ACTION</th>
   </tr>
   <tr *ngFor="let todo of todos">
     <td>{{todo.label}}</td>
+    <td>
+      <button (click)="deleteTodo(todo)">Delete</button>
+    </td>
   </tr>
 </table>
