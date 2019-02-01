@@ -1,12 +1,14 @@
+<h1>TO DO LIST</h1>
+
+<input type="text" #newTodo />
+
+<button (click)="addTodo(newTodo.value); newTodo.value=''">Add in the list</button><br>
+
 <table>
   <tr>
-    <th>Label</th>
-    <th>Priority</th>
-    <th>Done</th>
+    <th><b>LABEL</b></th>
   </tr>
   <tr *ngFor="let todo of todos">
     <td>{{todo.label}}</td>
-    <td>{{todo.priority}}</td>
-    <td>{{todo.done ? '&#10003;' : '&#10005;'}}</td>
   </tr>
 </table>
