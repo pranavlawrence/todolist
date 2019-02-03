@@ -1,3 +1,9 @@
 td {
     background-color: lightcoral;
+    padding: 4px;
+    
+}
+
+th {
+    padding-right: 100px;
 }
