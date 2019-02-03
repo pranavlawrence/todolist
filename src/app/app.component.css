@@ -5,5 +5,24 @@ td {
 }
 
 th {
+    padding: 4px;
     padding-right: 100px;
+    background-color: darkcyan;
+
+}
+
+input {
+    padding: 4px;
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+button {
+    padding: 4px;
+    margin-left: 10px;
+    background-color: lightcoral;
+}
+
+h1{
+    color: darkcyan;
 }
